@@ -1,0 +1,31 @@
+
+	P A R S E T P U
+	---------------
+
+PTPU stands for parsetpu.
+
+It has the same purpose and the same switches as parselib (plb) so please
+look at plb.doc for information.
+
+But there are some differences.	PTPU don't have the following switches:
+	-c, -e, -i, -o, -p, -w, -z.
+
+And the directory of the input file must have the following files:
+	- System.idt from TP version same as input file;
+	- turbo.tpl(tpp.tpl,tpw.tpl) from TP version same as input file
+	  (or system.tpu in separate file);
+	- all files used in the unit (if they doesn't exist PTPU
+	  outputs error, but does not exit if possible).
+
+The unit version may be found by the following table:
+
+Header ID	Version		Comments
+TPU0		4.0		(not supported by PTPU)
+TPU5		5.0
+TPU6		5.5
+TPU9		6.0
+TPUQ		7.0
+DCU1		Delphi V1.0
+
+ParseTPU can handle separate TPU or DCU files and one module from a TPL
+or DSL library.

@@ -1,0 +1,202 @@
+000 Name=?
+001 Name=@__SystemInit$qv Pascal=0 Comment=Initialize run-time library
+002 Name=@RunError$q4Byte Pascal=0 Comment=RunError(errcode: Byte{AX})
+003 Name=@Halt$q4Word Pascal=0 Comment=Halt(exitcode: Word{AX})
+004 Name=@$basg$qm3Anyt14Word Comment=Bitcopy of any type variable
+005 Name=@$brmul$q7Longintt1 Pascal=0 Comment=X1{DX:AX}*=X2{BX:CX}
+006 Name=@$brdiv$q7Longintt1 Pascal=0 \
+	Comment=X1{DX:AX}/=X2{BX:CX}\nX2=X1%X2
+007 Name=@$brrsh$q7Longint7Integer Pascal=0 Comment=X1{DX:AX}>>=N{CX}
+008 Name=@$brlsh$q7Longint7Integer Pascal=0 Comment=X1{DX:AX}<<=N{CX}
+009 Name=@Abs$q7Longint Pascal=0 Comment=Abs(x: Longint{DX:AX}): Longint{DX:AX}
+010 Name=@Sqr$q7Longint Pascal=0 Comment=Sqr(x: Longint{DX:AX}): Longint{DX:AX}
+011 Name=@$basg$qm6Stringt1 Args=8 Drops=4 Comment=Load string
+012 Name=@$basg$qm6Stringt14Byte Pascal=10 Comment=Store string
+013 Name=@Length$qm6String Pascal=4 Comment=Length(s: String): Integer{AX}
+014 Name=@Copy$qm6Stringt17Integert3 Args=12 Drops=8 \
+	Comment=Copy(s: String, index: Integer, count: Integer): String
+015 Name=@Concat$qm6Stringt1 Args=8 Drops=4 \
+	Comment=Concat(dst, src: String): String
+016 Name=@Pos$qm6Stringt1 Pascal=8 \
+	Comment=Pos(substr: String, s: String): Byte{AX}
+017 Name=@$bsub$qm6Stringt1 Pascal=8 \
+	Comment=Compare two strings\nZF - src=dst\nCF - src<dst
+018 Name=@$basg$qm6String4Char Args=6 Drops=2 Comment=Str:=Char
+019 Name=@$basg$qm6Stringn4Char4Byte Args=10 Drops=6 \
+	Comment=Str:=Array of Char
+020 Name=@Insert$qm6Stringt14Word7Integer Pascal=12 \
+	Comment=Insert(source,dst: String;{dstlen: Word} index: Integer)
+021 Name=@Delete$qm6String7Integert2 Pascal=8 \
+	Comment=Delete(var s: String; index: Integer; count: Integer)
+022 Name=@Set@$bctr$qn4Byte4Word Args=10 Drops=6 Comment=Load Set
+023 Name=@Set@$bctr$qm3Set4Word Pascal=10 Comment=Store Set
+024 Name=@Set@MemberOf$q4Byte Pascal=6 \
+	Comment=Set inclusion test\nZF - if not in set
+025 Name=@Trunc$q8Extended Pascal=0 \
+	Comment=Trunc(x: Extended{st(0)}): Longint{DX:AX}
+026 Name=@Round$q8Extended Pascal=0 \
+	Comment=Round(x: Extended{st(0)}): Longint{DX:AX}
+027 Name=@Int$q8Extended Pascal=0 Comment=Int(x: Extended): Extended
+028 Name=@Sqrt$q8Extended Pascal=0 Comment=Sqrt(x: Extended): Extended
+029 Name=@Sin$q8Extended Pascal=0 Comment=Sin(x: Extended): Extended
+030 Name=@Cos$q8Extended Pascal=0 Comment=Cos(x: Extended): Extended
+031 Name=@ArcTan$q8Extended Pascal=0 Comment=Arc(x: Extended): Extended
+032 Name=@Ln$q8Extended Pascal=0 Comment=Ln(x: Extended): Extended
+033 Name=@Exp$q8Extended Pascal=0 Comment=Exp(x: Extended): Extended
+034 Name=@GetMem$qm7Pointer4Word Pascal=2 \
+	Comment=GetMem(var p: Pointer{DX:AX}; size: Word)
+035 Name=@FreeMem$qm7Pointer4Word Pascal=6 \
+	Comment=FreeMem(var p: Pointer; size: Word)
+036 Name=@Mark$qm7Pointer Pascal=4 Comment=Mark(var p: Pointer)
+037 Name=@Release$qm7Pointer Pascal=4 Comment=Release(var p: Pointer)
+038 Name=@MemAvail$qv Pascal=0 Comment=MemAvail: Longint{DX:AX}
+039 Name=@MaxAvail$qv Pascal=0 Comment=MaxAvail: Longint{DX:AX}
+040 Name=@Set@Clear$qv Args=4 Comment=Clear Set
+041 Name=@Set@$brplu$q4Byte Args=6 Drops=2 Comment=Add Set component
+042 Name=@Set@$brplu$q4Bytet1 Args=8 Drops=4 Comment=Add Set range
+043 Name=@$brplu$qm3Sett1 Args=8 Drops=4 Comment=Set union
+044 Name=@$brmin$qm3Sett1 Args=8 Drops=4 Comment=Set difference
+045 Name=@$brmul$qm3Sett1 Args=8 Drops=4 Comment=Set intersection
+046 Name=@$beql$qm3Sett1 Pascal=8 Comment=Set equality test\nZF if s1=s2
+047 Name=@$bgeq$qm3Sett1 Pascal=8 Comment=Set relation test\nZF if s1>=s2
+048 Name=@ParamCount$qv Pascal=0 Comment=ParamCount: Word{AX}
+049 Name=@IOResult$qv Pascal=0 Comment=IOResult: Word{AX}
+050 Name=@__IOCheck$qv Pascal=0 Comment=Exit if error
+051 Name=@__RangeCheck$q7Longintpa2$7Longint Pascal=0 \
+	Comment=Range check (DX:AX, CS:DI)
+052 Name=@__StackCheck$q4Word Pascal=0 Comment=Stack overflow check (AX)
+053 Name=@Write$qm4Text8Extended4Wordt3 Args=8 Drops=4 \
+	Comment=Write(var f; v: Extended{st(0); width, decimals: Word)
+054 Name=@Write$qm4Textm6String4Word Args=10 Drops=6 \
+	Comment=Write(var f; s: String; width: Word)
+055 Name=@Write$qm4Text7Longint4Word Args=10 Drops=6 \
+	Comment=Write(var f; v: Longint; width: Word)
+056 Name=@Write$qm4Text7Boolean4Word Args=8 Drops=4 \
+	Comment=Write(var f;b: Boolean; width: Word)
+057 Name=@Write$qm4Text4Char4Word Args=8 Drops=4 \
+	Comment=Write(var f; c: Char; width: Word)
+058 Name=@WriteLn$qm4Text Pascal=4 Comment=WriteLn(var f: Text)
+059 Name=@Write$qm4Text Pascal=4 Comment=Write(var f: Text)
+060 Name=@Write$qm4Filem3Any Args=8 Drops=4 \
+	Comment=Write(var f: File;var v: Any)
+061 Name=@Read$qm4Text8Extended Args=4 \
+	Comment=Read(var f; var v:Extended{st(0)})
+062 Name=@Read$qm4Textm6String4Word Args=10 Drops=6 \
+	Comment=Read(var f; var s: String; width: Word)
+063 Name=@Read$qm4Text7Longint Args=4 \
+	Comment=Read(var f; var v: Longint{DX:AX})
+064 Name=@Read$qm4Text4Char Args=4 Comment=Read(var f; var c: Char{AL})
+065 Name=@ReadLn$qm4Text Pascal=4 Comment=ReadLn(var f: Text)
+066 Name=@Write$qm4Text Pascal=4 Comment=Write(var f: Text)
+067 Name=@Read$qm4Filem3Any Args=8 Drops=4 \
+	Comment=Read(var f: File{; buf: PByte})
+068 Name=@Randomize$qv Pascal=0 Comment=Randomize
+069 Name=@Assign$qm4Textm6String Pascal=8 \
+	Comment=Assign(var f: Text; name: String)
+070 Name=@Reset$qm4Text Pascal=4 Comment=Reset(var f: Text)
+071 Name=@Rewrite$qm4Text Pascal=4 Comment=Rewrite(var f: Text)
+072 Name=@Close$qm4Text Pascal=4 Comment=Close(var f: Text)
+073 Name=@Assign$qm4Filem6String Pascal=8 \
+	Comment=Assign(var f: File; name: String)
+074 Name=@Reset$qm4File4Word Pascal=6 Comment=Reset(var f: File; recsize: Word)
+075 Name=@Rewrite$qm4File4Word Pascal=6 \
+	Comment=Rewrite(var f: File; recsize: Word)
+076 Name=@Close$qm4File Pascal=4 Comment=Close(var f: File)
+077 Name=@Erase$qm4File Pascal=4 Comment=Erase(var f)
+078 Name=@Rename$qm4Filem6String Pascal=8 Comment=Rename(var f; newname: String)
+079 Name=@SeekEoln$qm4Text Pascal=4 Comment=SeekEoln(var f: Text): Boolean{AL}
+080 Name=@SeekEof$qm4Text Pascal=4 Comment=SeekEof(var f: Text): Boolean{AL}
+081 Name=@Eoln$qm4Text Pascal=4 Comment=Eoln(var f: Text): Boolean{AL}
+082 Name=@Eof$qm4Text Pascal=4 Comment=Eof(var f: Text): Boolean{AL}
+083 Name=@BlockRead$qm4Filem3Any4Wordm4Word Pascal=14 \
+	Comment=BlockRead(var f: File; var buf; count: Word;var result: Word)
+084 Name=@BlockWrite$qm4Filem3Any4Wordm4Word Pascal=14 \
+	Comment=BlockWrite(var f: File; var buf; count: Word;var result: Word)
+085 Name=@Seek$qm4File7Longint Pascal=8 Comment=Seek(var f; n: Longint)
+086 Name=@FilePos$qm4File Pascal=4 Comment=FilePos(var f): Longint{DX:AX}
+087 Name=@FileSize$qm4File Pascal=4 Comment=FileSize(var f): Longint{DX:AX}
+088 Name=@Eof$qm4File Pascal=4 Comment=Eof(var f: File): Boolean{AL}
+089 Name=@Frac$q8Extended Pascal=0 Comment=Frac(x: Extended): Extended
+090 Name=@UpCase$q4Char Pascal=2 Comment=UpCase(ch: Char): Char{AL}
+091 Name=@Truncate$qm4File Pascal=4 Comment=Truncate(var f)
+092 Name=@FillChar$qm3Any4Word4Byte Pascal=8 \
+	Comment=FillChar(var x; count: Word; value: Byte)
+093 Name=@Random$q4Word Pascal=2 Comment=Random(range: Word): Word{AX}
+094 Name=@Random__Extended$qv Pascal=0 Comment=Random: Extended{st(0)}
+095 Name=@ParamStr$qm6String4Word Args=6 Drops=4 \
+	Comment=ParamStr(index): String
+096 Name=@Move$qm3Anyt14Word Pascal=10 \
+	Comment=Move(var source, dest; count: Word)
+097 Name=@Str$q7Longint4Wordm6String4Byte Pascal=12 \
+	Comment=Str(x:width; var s: string {; strlen: Word})
+098 Name=@Val__Longint$qm6Stringm7Integer Pascal=8 \
+	Comment=Val(s: String; v: Longint{DX:AX}; var code: Integer)
+099 Name=@Str$q8Extended4Wordt2m6String4Word Pascal=10 \
+	Comment=Str(x{st(0)}:width:decimals; var s: string {; strlen: Word})
+100 Name=@Val__Extended$qm6Stringm7Integer Pascal=8 \
+	Comment=Val(s: String; v: Extended{st(0)}; var code: Integer)
+101 Name=@GetDir$q4Bytem6String4Word Pascal=8 \
+	Comment=GetDir(d: Byte, var s: String{; strlen: Word})
+102 Name=@ChDir$qm6String Pascal=4 Comment=ChDir(s: String)
+103 Name=@MkDir$qm6String Pascal=4 Comment=MkDir(s: String)
+104 Name=@RmDir$qm6String Pascal=4 Comment=RmDir(s: String)
+105 Name=@Append$qm4Text Pascal=4 Comment=Append(var f: Text)
+106 Name=@Flush$qm4Text Pascal=4 Comment=Flush(var f: Text)
+107 Name=@SetTextBuf$qm4Textm3Any4Word Pascal=10 \
+	Comment=SetTextBuf(var f: Text; var buf; size: Word)
+108 Name=@Extended$q4Real Pascal=0 Comment=Convert Real to Extended
+109 Name=@Real$q8Extended Pascal=0 Comment=Convert Extended to Real
+110 Name=@$brplu$q4Realt1 Pascal=0 Comment=Real(AX:BX:DX)+=Real(CX:SI:DI)
+111 Name=@$brmin$q4Realt1 Pascal=0 Comment=Real(AX:BX:DX)-=Real(CX:SI:DI)
+112 Name=@$brmul$q4Realt1 Pascal=0 Comment=Real(AX:BX:DX)*=Real(CX:SI:DI)
+113 Name=@$brdiv$q4Realt1 Pascal=0 \
+	Comment=Real(AX:BX:DX)/=Real(CX:SI:DI)\nReal(CX:SI:DI)=Real(AX:BX:DX)%Real(CX:SI:DI)
+114 Name=@__Cmp$q4Realt1 Pascal=0 Comment=Compare two reals
+115 Name=@Real$q7Longint Pascal=0 Comment=Real(x: Longint{DX:AX}): Real
+116 Name=@Trunc$q4Real Pascal=0 Comment=Trunc(x: Real): Longint{DX:AX}
+117 Name=@Round$q4Real Pascal=0 Comment=Round(x: Real): Longint
+118 Name=@Sqr$q4Real Pascal=0 Comment=Sqr(x: Real): Real
+119 Name=@Write$qm4Text4Real4Wordt3 Args=14 Drops=10 \
+	Comment=Write(var f; v: Real; width, decimals: Word)
+120 Name=@Read$qm4Text4Real Args=4 Comment=Read(var f; var v: Real{DX:BX:AX})
+121 Name=@Str$q4Real4Wordt2m6String4Word Pascal=16 \
+	Comment=Str(x:width:decimals; var s: string {; strlen: Word})
+122 Name=@Val__Real$qm6Stringm7Integer Pascal=8 \
+	Comment=Val(s: String; v: Real{DX:BX:AX}; var code: Integer)
+123 Name=@Int$q4Real Pascal=0 Comment=Int(x: Real): Real
+124 Name=@Frac$q4Real Pascal=0 Comment=Frac(x: Real): Real
+125 Name=@Sqrt$q4Real Pascal=0 Comment=Sqrt(x: Real): Real
+126 Name=@Cos$q4Real Pascal=0 Comment=Cos(x: Real): Real
+127 Name=@Sin$q4Real Pascal=0 Comment=Sin(x: Real): Real
+128 Name=@Ln$q4Real Pascal=0 Comment=Ln(x: Real): Real
+129 Name=@Exp$q4Real Pascal=0 Comment=Exp(x: Real): Real
+130 Name=@ArcTan$q4Real Pascal=0 Comment=ArcTan(x: Real): Real
+131 Name=@Random__Real$qv Pascal=0 Comment=Random: Real
+132 Name=@__InitEM86$qv Pascal=0 Comment=Initialize software emulator
+133 Name=@__InitEM87$qv Pascal=0 Comment=Initialize hardware emulator
+; Private routines
+134 Name=__RealAdd Pascal=0
+135 Name=__RealSub Pascal=0
+136 Name=__RealMul Pascal=0
+137 Name=__RealDiv Pascal=0
+138 Name=__RealCmp Pascal=0
+139 Name=__RealFloat Pascal=0
+140 Name=__RealTrunc Pascal=0
+141 Name=__Int2Str
+142 Name=__Str2Int
+143 Name=__Real2Str
+144 Name=__Str2Real
+145 Name=__Float2Str
+146 Name=__Str2Float
+147 Name=__GetEntry Pascal=0
+148 Name=__GetChar Pascal=0
+149 Name=__PutEntry Pascal=0
+150 Name=__PutChar Pascal=0
+151 Name=__PrintString Pascal=0
+152 Name=__Terminate Pascal=0
+153 Name=__Check8087
+154 Name=__Init8087
+155 Name=__E086_Entry
+156 Name=__E086_Shortcut
+157 Name=__E087_Entry
+158 Name=__E087_Shortcut

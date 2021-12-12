@@ -1,0 +1,585 @@
+ DATA=@DGROUP
+ DATA=___first
+ DATA=___last
+ DATA=___rover
+ DATA=__DGROUP
+ DATA=__OVRGROUP
+ DATA=__GRP_ovr
+
+@DGROUP                                           	0A 43C6 0653CB803E....FF7537803E....A57506C606....00C3B40FCD10A2....B840
+
+F_PCMP@                                           	01 A788 518AE8B104D3E803D08AC58AE3D3EB5903CB8ADC250F0083E30F3BD175023BC3
++PCMP@                                                   01 A788 518AE8B104D3E803D08AC58AE3D3EB5903CB8ADC250F0083E30F3BD175023BC3
+
++_unlink                                                 00 0000 558BEC1EB441C55604CD211F720433C0EB0450E8....5DC3................
+_remove                                           	00 0000 558BEC1EB441C55604CD211F720433C0EB0450E8....5DC3................
+
++_unlink                                                 00 0000 558BEC1EB441C55606CD211F720433C0EB0450E8....5DCB................
+_remove                                           	00 0000 558BEC1EB441C55606CD211F720433C0EB0450E8....5DCB................
+
++_unlink                                                 00 0000 558BEC1EB8....8ED81EB441C55606CD211F720433C0EB0450E8....1F5DCB..
+_remove                                           	00 0000 558BEC1EB8....8ED81EB441C55606CD211F720433C0EB0450E8....1F5DCB..
+
++_bioskey                                                0C 379F 558BEC1EB8....8ED832C08A6606CD16740FF646060175110BC0750DB8FFFFEB
+__bios_keybrd                                     	0C 379F 558BEC1EB8....8ED832C08A6606CD16740FF646060175110BC0750DB8FFFFEB
+
+-@strstreambuf@0$bctr$qnucit1                            13 145A 558BEC1EB8....8ED88B46060B46087402EB10B8340050..........59895608
+@strstreambuf@0$bctr$qnzcit1                      	13 145A 558BEC1EB8....8ED88B46060B46087402EB10B8340050..........59895608
+
+-@istream@0$brsh$qnqm3ios$m3ios                          13 655A 558BEC1EB8....8ED88B46060B4608740CC45E06268B5702268B07EB068B5608
+@ostream@0$blsh$qnqm3ios$m3ios                    	13 655A 558BEC1EB8....8ED88B46060B4608740CC45E06268B5702268B07EB068B5608
+
+-@strstreambuf@0$bctr$qnzcit1                            0B C57F 558BEC1EB8....8ED88B46060B46087514B8340050..........598956088946
+@strstreambuf@0$bctr$qnucit1                      	0B C57F 558BEC1EB8....8ED88B46060B46087514B8340050..........598956088946
+
++_tolower                                                04 FCF3 558BEC1EB8....8ED88B4E0683F9FF7505B8FFFFEB208AC1B400BA....8BD88E
+__ftolower                                        	04 FCF3 558BEC1EB8....8ED88B4E0683F9FF7505B8FFFFEB208AC1B400BA....8BD88E
++_toupper                                                04 FCF3 558BEC1EB8....8ED88B4E0683F9FF7505B8FFFFEB208AC1B400BA....8BD88E
+__ftoupper                                        	04 FCF3 558BEC1EB8....8ED88B4E0683F9FF7505B8FFFFEB208AC1B400BA....8BD88E
+
++_getvect                                                0E 3EC6 558BEC1EB8....8ED8B4358A4606CD21938CC21F5DCB558BEC1EB8....8ED8B4
+__dos_getvect                                     	0E 3EC6 558BEC1EB8....8ED8B4358A4606CD21938CC21F5DCB558BEC1EB8....8ED8B4
+
+-@streambuf@0overflow$qi                                 00 0000 558BEC1EB8....8ED8B8FFFF1F5DCB..................................
+@streambuf@0pbackfail$qi                          	00 0000 558BEC1EB8....8ED8B8FFFF1F5DCB..................................
+
+@istream@0$brsh$qnqm3ios$m3ios                    	00 0000 558BEC1EB8....8ED8C45E060626FF37FF5E0A59598B56088B46061F5DCB....
+@ostream@0$blsh$qnqm3ios$m3ios                    	00 0000 558BEC1EB8....8ED8C45E060626FF37FF5E0A59598B56088B46061F5DCB....
+
+-@istream_withassign@0$basg$qm7istream                   00 0000 558BEC1EB8....8ED8C45E0A268B1F26FF770626FF7704C45E060626FF37....
+@ostream_withassign@0$basg$qm7ostream             	00 0000 558BEC1EB8....8ED8C45E0A268B1F26FF770626FF7704C45E060626FF37....
+
+-@istream_withassign@0$basg$qm7istream                   00 0000 558BEC1EB8....8ED8C45E0A26C41F26FF770226FF37C45E0626FF770226FF37
+@ostream_withassign@0$basg$qm7ostream             	00 0000 558BEC1EB8....8ED8C45E0A26C41F26FF770226FF37C45E0626FF770226FF37
+
++_pow10                                                  00 0000 558BEC1EB8....8ED8FF7606E8....1F5DCB............................
+_pow10l                                           	00 0000 558BEC1EB8....8ED8FF7606E8....1F5DCB............................
+
+__graphfreemem                                    	00 0000 558BEC1EB8....8ED8FF7608FF7606..........59591F5DCB..............
+-@$bdele$qnv                                             00 0000 558BEC1EB8....8ED8FF7608FF7606..........59591F5DCB..............
+@$bdele$qnvui                                     	00 0000 558BEC1EB8....8ED8FF7608FF7606..........59591F5DCB..............
+
+@istream_withassign@0$basg$qn9streambuf           	07 391F 558BEC1EB8....8ED8FF760CFF760AC45E060626FF37..........83C4088B56
+@iostream_withassign@0$basg$qn9streambuf          	07 391F 558BEC1EB8....8ED8FF760CFF760AC45E060626FF37..........83C4088B56
+@ostream_withassign@0$basg$qn9streambuf           	07 391F 558BEC1EB8....8ED8FF760CFF760AC45E060626FF37..........83C4088B56
+
+@istream_withassign@0$basg$qn9streambuf           	0A 3AD7 558BEC1EB8....8ED8FF760CFF760AC45E0626FF770226FF37..........83C4
+@iostream_withassign@0$basg$qn9streambuf          	0A 3AD7 558BEC1EB8....8ED8FF760CFF760AC45E0626FF770226FF37..........83C4
+@ostream_withassign@0$basg$qn9streambuf           	0A 3AD7 558BEC1EB8....8ED8FF760CFF760AC45E0626FF770226FF37..........83C4
+
+-@_vector_new_$qpvuiuiuie                                00 0000 558BEC1EB8....8ED8..........33C01F5DCB..........................
+@_vector_vnew_$qpvuiuiuie                         	00 0000 558BEC1EB8....8ED8..........33C01F5DCB..........................
+
++_bioskey                                                05 422D 558BEC32C08A6604CD16740FF646040175110BC0750DB8FFFFEB08F646040174
+__bios_keybrd                                     	05 422D 558BEC32C08A6604CD16740FF646040175110BC0750DB8FFFFEB08F646040174
+
++_bioskey                                                05 0AA1 558BEC32C08A6606CD16740FF646060175110BC0750DB8FFFFEB08F646060174
+__bios_keybrd                                     	05 0AA1 558BEC32C08A6606CD16740FF646060175110BC0750DB8FFFFEB08F646060174
+
+-@istream@get$qrzc                                       49 F4F5 558BEC4C4C56578B7604B801005056E8....59590BC074598B1C8B078946FE8B
+@istream@get$qruc                                 	49 F4F5 558BEC4C4C56578B7604B801005056E8....59590BC074598B1C8B078946FE8B
+
+-@istream@get$qrzc                                       4A 8007 558BEC4C4C56578B7606B801005056..........59590BC0745B8B1C8B078946
+@istream@get$qruc                                 	4A 8007 558BEC4C4C56578B7606B801005056..........59590BC0745B8B1C8B078946
+
+-@istream@0$brsh$qmzc                                    AD ECCC 558BEC561EB8....8ED833C050FF7608FF7606..........83C4060BC07503E9
+@istream@0$brsh$qmuc                              	AD ECCC 558BEC561EB8....8ED833C050FF7608FF7606..........83C4060BC07503E9
+
+;@ios@0pword$qi
+;@ios@0iword$qi
+;@ios@0pword$qi
+;@ios@0iword$qi
+@ios@0pword$qi                                    	01 BBC9 558BEC561EB8....8ED88B760A83FE017C0CB8....8EC0263936....7D078CDA
+@ios@0iword$qi                                    	01 BBC9 558BEC561EB8....8ED88B760A83FE017C0CB8....8EC0263936....7D078CDA
+@ios@0pword$qi                                    	01 BBC9 558BEC561EB8....8ED88B760A83FE017C0CB8....8EC0263936....7D078CDA
+@ios@0iword$qi                                    	01 BBC9 558BEC561EB8....8ED88B760A83FE017C0CB8....8EC0263936....7D078CDA
+
+-@istream@0get$qmzc                                      BA 3AA0 558BEC561EB8....8ED8B8010050FF7608FF7606..........83C4060BC07503
+@istream@0get$qmuc                                	BA 3AA0 558BEC561EB8....8ED8B8010050FF7608FF7606..........83C4060BC07503
+
++_strchr                                                 21 C2A4 558BEC561EB8....8ED8FCC576068A5E0AF7C601007409AC3AC3741B22C07411
+__fstrchr                                         	21 C2A4 558BEC561EB8....8ED8FCC576068A5E0AF7C601007409AC3AC3741B22C07411
+
++_strlwr                                                 09 FC14 558BEC561EB8....8ED8FCC576068BD6EB0B2C413C19770504618844FFAC22C0
+__fstrlwr                                         	09 FC14 558BEC561EB8....8ED8FCC576068BD6EB0B2C413C19770504618844FFAC22C0
+
++_strupr                                                 09 FC14 558BEC561EB8....8ED8FCC576068BD6EB0B2C613C19770504418844FFAC22C0
+__fstrupr                                         	09 FC14 558BEC561EB8....8ED8FCC576068BD6EB0B2C613C19770504418844FFAC22C0
+
++_stpcpy                                                 07 6F54 558BEC561EB8....8ED8FF760CFF760A..........59598BF04050FF760CFF76
+__stpcpy                                          	07 6F54 558BEC561EB8....8ED8FF760CFF760A..........59598BF04050FF760CFF76
+
+-@istream@$brsh$qmzc                                     A5 9841 558BEC5633C050FF7606FF7604E8....83C4060BC07503E9B500C45E04268B1F
+@istream@$brsh$qmuc                               	A5 9841 558BEC5633C050FF7606FF7604E8....83C4060BC07503E9B500C45E04268B1F
+
+-@istream@$brsh$qmzc                                     A6 4DB2 558BEC5633C050FF7608FF7606..........83C4060BC07503E9B700C45E0626
+@istream@$brsh$qmuc                               	A6 4DB2 558BEC5633C050FF7608FF7606..........83C4060BC07503E9B700C45E0626
+
++_memcmp                                                 08 418A 558BEC56571E8B460E8BC8E314C57606C47E0AFCF3A68A44FF32E4268A4DFF32
+__fmemcmp                                         	08 418A 558BEC56571E8B460E8BC8E314C57606C47E0AFCF3A68A44FF32E4268A4DFF32
+
++_movmem                                                 53 A528 558BEC56571E8B4E0C8B5E0A8B56088B4606E8....7306FDB80100EB03FC33C0
+__fmovmem                                         	53 A528 558BEC56571E8B4E0C8B5E0A8B56088B4606E8....7306FDB80100EB03FC33C0
+
++_memcmp                                                 0F C488 558BEC56571EB8....8ED81E8B460E8BC8E314C57606C47E0AFCF3A68A44FF32
+__fmemcmp                                         	0F C488 558BEC56571EB8....8ED81E8B460E8BC8E314C57606C47E0AFCF3A68A44FF32
+
+__hqsort                                          	1F D331 558BEC56571EB8....8ED81EFC8B0E....C47E04C57608D1E97309268A05A488
++_qsort                                                  1F D331 558BEC56571EB8....8ED81EFC8B0E....C47E04C57608D1E97309268A05A488
+
++_strnicmp                                               2B D7B7 558BEC56571EB8....8ED81EFCC57606C47E0A8B4E0E33C08BD8BA7A61E324AC
+__fstrnicmp                                       	2B D7B7 558BEC56571EB8....8ED81EFCC57606C47E0A8B4E0E33C08BD8BA7A61E324AC
+
++_movmem                                                 3C 03C7 558BEC56571EB8....8ED88B4E0C8B5E0A8B56088B4606E8....7306FDB80100
+__fmovmem                                         	3C 03C7 558BEC56571EB8....8ED88B4E0C8B5E0A8B56088B4606E8....7306FDB80100
+
++_strstr                                                 55 C9DA 558BEC56571EB8....8ED8C45E0A268A07980BC075088B56088B4606EB521EFC
+__fstrstr                                         	55 C9DA 558BEC56571EB8....8ED8C45E0A268A07980BC075088B56088B4606EB521EFC
+
++_memcpy                                                 07 BA3A 558BEC56571EB8....8ED8C47E06C5760A8B4E0ED1E9FCF3A57301A48B56088B
+__fmemcpy                                         	07 BA3A 558BEC56571EB8....8ED8C47E06C5760A8B4E0ED1E9FCF3A57301A48B56088B
+
++_memccpy                                                20 0D3E 558BEC56571EB8....8ED8C47E0A8B4E10E3258BD98A460EFCF2AE1E2BD98BCB
+__fmemccpy                                        	20 0D3E 558BEC56571EB8....8ED8C47E0A8B4E10E3258BD98A460EFCF2AE1E2BD98BCB
+
++_strcmp                                                 13 B4EF 558BEC56571EB8....8ED8FC33C08BD8C47E0A8BF732C0B9FFFFF2AEF7D18BFE
+__fstrcmp                                         	13 B4EF 558BEC56571EB8....8ED8FC33C08BD8C47E0A8BF732C0B9FFFFF2AEF7D18BFE
+
++_strcat                                                 24 0ADE 558BEC56571EB8....8ED8FCC47E068BD732C0B9FFFFF2AE068D75FFC47E0AB9
+__fstrcat                                         	24 0ADE 558BEC56571EB8....8ED8FCC47E068BD732C0B9FFFFF2AE068D75FFC47E0AB9
+
++_strncpy                                                16 83C8 558BEC56571EB8....8ED8FCC47E0A8BF732C08B5E0E8BCBF2AE2BD98CC78EDF
+__fstrncpy                                        	16 83C8 558BEC56571EB8....8ED8FCC47E0A8BF732C08B5E0E8BCBF2AE2BD98CC78EDF
+
++_strcpy                                                 0E 027D 558BEC56571EB8....8ED8FCC47E0A8BF732C0B9FFFFF2AEF7D18CC08ED8C47E
+__fstrcpy                                         	0E 027D 558BEC56571EB8....8ED8FCC47E0A8BF732C0B9FFFFF2AEF7D18CC08ED8C47E
+
++_strncmp                                                1B D7A1 558BEC56571EB8....8ED8FCC47E0A8BF78B460E8BC8E31E8BD832C0F2AE2BD9
+__fstrncmp                                        	1B D7A1 558BEC56571EB8....8ED8FCC47E0A8BF78B460E8BC8E31E8BD832C0F2AE2BD9
+
++_strrev                                                 19 F8F2 558BEC56571EB8....8ED8FCC576068BD68BFE1E0732C0B9FFFFF2AE83F9FE74
+__fstrrev                                         	19 F8F2 558BEC56571EB8....8ED8FCC576068BD68BFE1E0732C0B9FFFFF2AE83F9FE74
+
++_stricmp                                                24 0C7C 558BEC56571EB8....8ED8FCC57606C47E0A33C08BD8B97A61AC268A1D0AC074
+__fstricmp                                        	24 0C7C 558BEC56571EB8....8ED8FCC57606C47E0A33C08BD8B97A61AC268A1D0AC074
+
++_strnicmp                                               24 D2BF 558BEC56571EFCC57606C47E0A8B4E0E33C08BD8BA7A61E324AC268A1D0AC074
+__fstrnicmp                                       	24 D2BF 558BEC56571EFCC57606C47E0A8B4E0E33C08BD8BA7A61E324AC268A1D0AC074
+
+-@istream@$brsh$qrzc                                     42 A1AD 558BEC565733C050FF7604E8....59590BC074578B5E048B1F8B3F8B45123B45
+@istream@$brsh$qruc                               	42 A1AD 558BEC565733C050FF7604E8....59590BC074578B5E048B1F8B3F8B45123B45
+
+-@istream@$brsh$qrzc                                     43 BAB3 558BEC565733C050FF7606..........59590BC074598B5E068B1F8B3F8B4512
+@istream@$brsh$qruc                               	43 BAB3 558BEC565733C050FF7606..........59590BC074598B5E068B1F8B3F8B4512
+
+-@ios@iword$qi                                           03 4B25 558BEC56578B76048B7E0683FF017C06393E....7D05B8....EB24397C1E7D07
+@ios@pword$qi                                     	03 4B25 558BEC56578B76048B7E0683FF017C06393E....7D05B8....EB24397C1E7D07
+
+-@ios@iword$qi                                           03 4B25 558BEC56578B76048B7E0683FF017C06393E....7D05B8....EB24397C207D07
+@ios@pword$qi                                     	03 4B25 558BEC56578B76048B7E0683FF017C06393E....7D05B8....EB24397C207D07
+
+-@istream_withassign@$basg$qr7istream                    00 0000 558BEC56578B76048B7E068B1DFF37FF34E8....59598BC65F5E5DC3........
+@ostream_withassign@$basg$qr7ostream              	00 0000 558BEC56578B76048B7E068B1DFF37FF34E8....59598BC65F5E5DC3........
+
+-@istream_withassign@$basg$qr7istream                    00 0000 558BEC56578B76048B7E068B1DFF7702FF34E8....59598BC65F5E5DC3......
+@ostream_withassign@$basg$qr7ostream              	00 0000 558BEC56578B76048B7E068B1DFF7702FF34E8....59598BC65F5E5DC3......
+
+-@ios@iword$qi                                           02 0BA6 558BEC56578B76068B7E0883FF017C06393E....7D05B8....EB26397C1E7D09
+@ios@pword$qi                                     	02 0BA6 558BEC56578B76068B7E0883FF017C06393E....7D05B8....EB26397C1E7D09
+
+-@ios@iword$qi                                           02 0BA6 558BEC56578B76068B7E0883FF017C06393E....7D05B8....EB26397C207D09
+@ios@pword$qi                                     	02 0BA6 558BEC56578B76068B7E0883FF017C06393E....7D05B8....EB26397C207D09
+
+-@istream_withassign@$basg$qr7istream                    00 0000 558BEC56578B76068B7E088B1DFF37FF34..........59598BC65F5E5DCB....
+@ostream_withassign@$basg$qr7ostream              	00 0000 558BEC56578B76068B7E088B1DFF37FF34..........59598BC65F5E5DCB....
+
+-@istream_withassign@$basg$qr7istream                    00 0000 558BEC56578B76068B7E088B1DFF7702FF34..........59598BC65F5E5DCB..
+@ostream_withassign@$basg$qr7ostream              	00 0000 558BEC56578B76068B7E088B1DFF7702FF34..........59598BC65F5E5DCB..
+
+-@istream@$brsh$qrzc                                     59 0CD5 558BEC56578B7E0433C05057E8....59590BC0746C8B1D8B5F028B47148B1D8B
+@istream@$brsh$qruc                               	59 0CD5 558BEC56578B7E0433C05057E8....59590BC0746C8B1D8B5F028B47148B1D8B
+
+-@istream@get$qrzc                                       64 78CE 558BEC56578B7E04B801005057E8....59590BC074788B1D8B5F028B47148B1D
+@istream@get$qruc                                 	64 78CE 558BEC56578B7E04B801005057E8....59590BC074788B1D8B5F028B47148B1D
+
++_stpcpy                                                 05 97DC 558BEC56578B7E04FF7606E8....598BF04050FF760657E8....83C4068BC703
+__stpcpy                                          	05 97DC 558BEC56578B7E04FF7606E8....598BF04050FF760657E8....83C4068BC703
+
+-@istream@$brsh$qrzc                                     5A 2F12 558BEC56578B7E0633C05057..........59590BC0746E8B1D8B5F028B47148B
+@istream@$brsh$qruc                               	5A 2F12 558BEC56578B7E0633C05057..........59590BC0746E8B1D8B5F028B47148B
+
+-@istream@get$qrzc                                       65 6ED1 558BEC56578B7E06B801005057..........59590BC0747A8B1D8B5F028B4714
+@istream@get$qruc                                 	65 6ED1 558BEC56578B7E06B801005057..........59590BC0747A8B1D8B5F028B4714
+
++_stpcpy                                                 09 A06C 558BEC56578B7E06FF7608..........598BF04050FF760857..........83C4
+__stpcpy                                          	09 A06C 558BEC56578B7E06FF7608..........598BF04050FF760857..........83C4
+
++_memcpy                                                 04 9913 558BEC56578CDAC47E06C5760A8B4E0ED1E9FCF3A57301A48EDA8B56088B4606
+__fmemcpy                                         	04 9913 558BEC56578CDAC47E06C5760A8B4E0ED1E9FCF3A57301A48EDA8B56088B4606
+
++_strcmp                                                 10 9636 558BEC56578CDAFC33C08BD8C47E0A8BF732C0B9FFFFF2AEF7D18BFEC57606F3
+__fstrcmp                                         	10 9636 558BEC56578CDAFC33C08BD8C47E0A8BF732C0B9FFFFF2AEF7D18BFEC57606F3
+
++_strncmp                                                18 088B 558BEC56578CDAFCC47E0A8BF78B460E8BC8E31E8BD832C0F2AE2BD98BCB8BFE
+__fstrncmp                                        	18 088B 558BEC56578CDAFCC47E0A8BF78B460E8BC8E31E8BD832C0F2AE2BD98BCB8BFE
+
++_stricmp                                                21 2431 558BEC56578CDAFCC57606C47E0A33C08BD8B97A61AC268A1D0AC0741CAE74F5
+__fstricmp                                        	21 2431 558BEC56578CDAFCC57606C47E0A33C08BD8B97A61AC268A1D0AC0741CAE74F5
+
++_strstr                                                 4E 28E7 558BEC5657C45E0A268A07980BC075088B56088B4606EB521EFCC47E06068BDF
+__fstrstr                                         	4E 28E7 558BEC5657C45E0A268A07980BC075088B56088B4606EB521EFCC47E06068BDF
+
++_memccpy                                                19 9821 558BEC5657C47E0A8B4E10E3258BD98A460EFCF2AE1E2BD98BCBC47E06C5760A
+__fmemccpy                                        	19 9821 558BEC5657C47E0A8B4E10E3258BD98A460EFCF2AE1E2BD98BCBC47E06C5760A
+
++_strcat                                                 1F 3865 558BEC5657FC1EC47E068BD732C0B9FFFFF2AE068D75FFC47E0AB9FFFFF2AEF7
+__fstrcat                                         	1F 3865 558BEC5657FC1EC47E068BD732C0B9FFFFF2AE068D75FFC47E0AB9FFFFF2AEF7
+
++_strrev                                                 14 9D1C 558BEC5657FC1EC576068BD68BFE1E0732C0B9FFFFF2AE83F9FE74104F4F87F7
+__fstrrev                                         	14 9D1C 558BEC5657FC1EC576068BD68BFE1E0732C0B9FFFFF2AE83F9FE74104F4F87F7
+
++_strncpy                                                11 9268 558BEC5657FCC47E0A8BF732C08B5E0E8BCBF2AE2BD91E8CC78EDFC47E0687CB
+__fstrncpy                                        	11 9268 558BEC5657FCC47E0A8BF732C08B5E0E8BCBF2AE2BD91E8CC78EDFC47E0687CB
+
++_strcpy                                                 09 D81F 558BEC5657FCC47E0A8BF732C0B9FFFFF2AEF7D11E8CC08ED8C47E06F3A41F8B
+__fstrcpy                                         	09 D81F 558BEC5657FCC47E0A8BF732C0B9FFFFF2AEF7D11E8CC08ED8C47E06F3A41F8B
+
+-@strstreambuf@$bctr$qpzcit1                             00 0000 558BEC568B76040BF67402EB0AB81E0050E8....598BF00BF67502EB1C56E8..
+@strstreambuf@$bctr$qpucit1                       	00 0000 558BEC568B76040BF67402EB0AB81E0050E8....598BF00BF67502EB1C56E8..
+
+-@istream@$brsh$qpqr3ios$r3ios                           00 0000 558BEC568B76040BF674048B04EB028BC650FF5606598BC65E5DC3..........
+@ostream@$blsh$qpqr3ios$r3ios                     	00 0000 558BEC568B76040BF674048B04EB028BC650FF5606598BC65E5DC3..........
+
+-@strstreambuf@$bctr$qpzcit1                             00 0000 558BEC568B76040BF6750EB81E0050E8....598BF00BC0741956E8....59C704
+@strstreambuf@$bctr$qpucit1                       	00 0000 558BEC568B76040BF6750EB81E0050E8....598BF00BC0741956E8....59C704
+
+-@istream@$brsh$qpqr3ios$r3ios                           00 0000 558BEC568B7604FF34FF5606598BC65E5DC3............................
+@ostream@$blsh$qpqr3ios$r3ios                     	00 0000 558BEC568B7604FF34FF5606598BC65E5DC3............................
+
+@istream_withassign@$basg$qp9streambuf                  00 0000 558BEC568B7604FF7606FF34E8....59598BC65E5DC3....................
+@iostream_withassign@$basg$qp9streambuf           	00 0000 558BEC568B7604FF7606FF34E8....59598BC65E5DC3....................
+@ostream_withassign@$basg$qp9streambuf            	00 0000 558BEC568B7604FF7606FF34E8....59598BC65E5DC3....................
+
+-@strstreambuf@$bctr$qpzcit1                             00 0000 558BEC568B76060BF67402EB0CB8220050..........598BF00BF67502EB2056
+@strstreambuf@$bctr$qpucit1                       	00 0000 558BEC568B76060BF67402EB0CB8220050..........598BF00BF67502EB2056
+
+-@istream@$brsh$qnqr3ios$r3ios                           00 0000 558BEC568B76060BF674048B04EB028BC650FF5E08598BC65E5DCB..........
+@ostream@$blsh$qnqr3ios$r3ios                     	00 0000 558BEC568B76060BF674048B04EB028BC650FF5E08598BC65E5DCB..........
+
+-@strstreambuf@$bctr$qpzcit1                             00 0000 558BEC568B76060BF67510B8220050..........598BF00BC0741D56........
+@strstreambuf@$bctr$qpucit1                       	00 0000 558BEC568B76060BF67510B8220050..........598BF00BC0741D56........
+
+-@istream@$brsh$qnqr3ios$r3ios                           00 0000 558BEC568B7606FF34FF5E08598BC65E5DCB............................
+@ostream@$blsh$qnqr3ios$r3ios                     	00 0000 558BEC568B7606FF34FF5E08598BC65E5DCB............................
+
+@istream_withassign@$basg$qp9streambuf            	00 0000 558BEC568B7606FF7608FF34..........59598BC65E5DCB................
+@iostream_withassign@$basg$qp9streambuf           	00 0000 558BEC568B7606FF7608FF34..........59598BC65E5DCB................
+@ostream_withassign@$basg$qp9streambuf            	00 0000 558BEC568B7606FF7608FF34..........59598BC65E5DCB................
+
+-@ios@iword$qi                                           08 4B3F 558BEC568B760883FE017C063936....7D078CDAB8....EB38C45E0426397726
+@ios@pword$qi                                     	08 4B3F 558BEC568B760883FE017C063936....7D078CDAB8....EB38C45E0426397726
+
+-@ios@iword$qi                                           10 F2E4 558BEC568B760883FE017C0CB8....8EC0263936....7D078CDAB8....EB3AC4
+@ios@pword$qi                                     	10 F2E4 558BEC568B760883FE017C0CB8....8EC0263936....7D078CDAB8....EB3AC4
+
+-@ios@iword$qi                                           07 5BF5 558BEC568B760A83FE017C063936....7D078CDAB8....EB3AC45E0626397726
+@ios@pword$qi                                     	07 5BF5 558BEC568B760A83FE017C063936....7D078CDAB8....EB3AC45E0626397726
+
+-@ios@iword$qi                                           0F 5750 558BEC568B760A83FE017C0CB8....8EC0263936....7D078CDAB8....EB3CC4
+@ios@pword$qi                                     	0F 5750 558BEC568B760A83FE017C0CB8....8EC0263936....7D078CDAB8....EB3CC4
+
+-@istream@get$qmzc                                       B2 DCE3 558BEC56B8010050FF7606FF7604E8....83C4060BC07503E9C300C45E04268B
+@istream@get$qmuc                                 	B2 DCE3 558BEC56B8010050FF7606FF7604E8....83C4060BC07503E9C300C45E04268B
+
+-@istream@get$qmzc                                       B3 BC89 558BEC56B8010050FF7608FF7606..........83C4060BC07503E9C500C45E06
+@istream@get$qmuc                                 	B3 BC89 558BEC56B8010050FF7608FF7606..........83C4060BC07503E9C500C45E06
+
++_strchr                                                 1D 680A 558BEC56FC1EC576068A5E0AF7C601007409AC3AC3741C22C07411AD3AC37414
+__fstrchr                                         	1D 680A 558BEC56FC1EC576068A5E0AF7C601007409AC3AC3741C22C07411AD3AC37414
+
++_strlwr                                                 04 2E05 558BEC56FC1EC576068BD6EB0B2C413C19770504618844FFAC22C075F0928CDA
+__fstrlwr                                         	04 2E05 558BEC56FC1EC576068BD6EB0B2C413C19770504618844FFAC22C075F0928CDA
+
++_strupr                                                 04 2E05 558BEC56FC1EC576068BD6EB0B2C613C19770504418844FFAC22C075F0928CDA
+__fstrupr                                         	04 2E05 558BEC56FC1EC576068BD6EB0B2C613C19770504418844FFAC22C075F0928CDA
+
++_stpcpy                                                 00 0000 558BEC56FF760AFF7608E8....59598BF04050FF760AFF7608FF7606FF7604E8
+__stpcpy                                          	00 0000 558BEC56FF760AFF7608E8....59598BF04050FF760AFF7608FF7606FF7604E8
+
++_stpcpy                                                 01 4E95 558BEC56FF760CFF760A..........59598BF04050FF760CFF760AFF7608FF76
+__stpcpy                                          	01 4E95 558BEC56FF760CFF760A..........59598BF04050FF760CFF760AFF7608FF76
+
++_strlen                                                 06 628A 558BEC571EB8....8ED8C47E0633C03B460875043BC7740AFCB9FFFFF2AE91F7
+__fstrlen                                         	06 628A 558BEC571EB8....8ED8C47E0633C03B460875043BC7740AFCB9FFFFF2AE91F7
+
++_setmem                                                 10 1597 558BEC571EB8....8ED8C47E068B4E0A8A460C8AE0FCF7C701007404E309AA49
+__fsetmem                                         	10 1597 558BEC571EB8....8ED8C47E068B4E0A8A460C8AE0FCF7C701007404E309AA49
+
++_memchr                                                 0A 3B33 558BEC571EB8....8ED8C47E068B4E0CE3088A460AFCF2AE740733FF8EC7BF01
+__fmemchr                                         	0A 3B33 558BEC571EB8....8ED8C47E068B4E0CE3088A460AFCF2AE740733FF8EC7BF01
+
++_strlen                                                 00 0000 558BEC57C47E0633C03B460875043BC7740AFCB9FFFFF2AE91F7D0485F5DCB..
+__fstrlen                                         	00 0000 558BEC57C47E0633C03B460875043BC7740AFCB9FFFFF2AE91F7D0485F5DCB..
+
++_setmem                                                 23 EEAF 558BEC57C47E068B4E0A8A460C8AE0FCF7C701007404E309AA49D1E9F3AB7301
+__fsetmem                                         	23 EEAF 558BEC57C47E068B4E0A8A460C8AE0FCF7C701007404E309AA49D1E9F3AB7301
+
++_memchr                                                 03 B814 558BEC57C47E068B4E0CE3088A460AFCF2AE740733FF8EC7BF01004F8BC78CC2
+__fmemchr                                         	03 B814 558BEC57C47E068B4E0CE3088A460AFCF2AE740733FF8EC7BF01004F8BC78CC2
+
+-@istream@$brsh$qms                                      18 F319 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E04268B1F26F747
+@istream@$brsh$qmui                               	18 F319 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E04268B1F26F747
+@istream@$brsh$qmus                               	18 F319 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E04268B1F26F747
+@istream@$brsh$qmi                                	18 F319 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E04268B1F26F747
+
+-@istream@$brsh$qmi                                      18 7BAF 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E0426C41F26F747
+@istream@$brsh$qms                                	18 7BAF 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E0426C41F26F747
+@istream@$brsh$qmui                               	18 7BAF 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E0426C41F26F747
+@istream@$brsh$qmus                               	18 7BAF 558BEC83EC04168D46FC50FF7606FF7604E8....83C408C45E0426C41F26F747
+
+-@istream@$brsh$qms                                      1A 9B5E 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E06268B1F26
+@istream@$brsh$qmui                               	1A 9B5E 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E06268B1F26
+@istream@$brsh$qmus                               	1A 9B5E 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E06268B1F26
+@istream@$brsh$qmi                                	1A 9B5E 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E06268B1F26
+
+-@istream@$brsh$qmi                                      1A 13E8 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E0626C41F26
+@istream@$brsh$qms                                	1A 13E8 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E0626C41F26
+@istream@$brsh$qmus                               	1A 13E8 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E0626C41F26
+@istream@$brsh$qmui                               	1A 13E8 558BEC83EC04168D46FC50FF7608FF7606..........83C408C45E0626C41F26
+
+-@istream@0$brsh$qmui                                    21 5812 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qms                               	21 5812 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qmi                               	21 5812 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qmus                              	21 5812 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+
+-@istream@0$brsh$qmui                                    21 AC92 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qms                               	21 AC92 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qmi                               	21 AC92 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+@istream@0$brsh$qmus                              	21 AC92 558BEC83EC041EB8....8ED8168D46FC50FF7608FF7606..........83C408C4
+
++_strcspn                                                2C B9ED 558BEC83EC041EB8....8ED833C9EB2C8B460C8B560A8946FE8956FCEB11C45E
+__fstrcspn                                        	2C B9ED 558BEC83EC041EB8....8ED833C9EB2C8B460C8B560A8946FE8956FCEB11C45E
+
++_strspn                                                 35 C88D 558BEC83EC041EB8....8ED833C9EB358B460C8B560A8946FE8956FCEB11C45E
+__fstrspn                                         	35 C88D 558BEC83EC041EB8....8ED833C9EB358B460C8B560A8946FE8956FCEB11C45E
+
++_strpbrk                                                33 5FB8 558BEC83EC041EB8....8ED8EB338B460C8B560A8946FE8956FCEB19C45E0626
+__fstrpbrk                                        	33 5FB8 558BEC83EC041EB8....8ED8EB338B460C8B560A8946FE8956FCEB19C45E0626
+
+__fstrcspn                                        	25 97CC 558BEC83EC0433C9EB2C8B460C8B560A8946FE8956FCEB11C45E06268A07C45E
++_strcspn                                                25 97CC 558BEC83EC0433C9EB2C8B460C8B560A8946FE8956FCEB11C45E06268A07C45E
+
+__fstrspn                                         	2E 8D6D 558BEC83EC0433C9EB358B460C8B560A8946FE8956FCEB11C45E06268A07C45E
++_strspn                                                 2E 8D6D 558BEC83EC0433C9EB358B460C8B560A8946FE8956FCEB11C45E06268A07C45E
+
+__fstrcspn                                        	27 4514 558BEC83EC045633F6EB2C8B460C8B560A8946FE8956FCEB11C45E06268A07C4
++_strcspn                                                27 4514 558BEC83EC045633F6EB2C8B460C8B560A8946FE8956FCEB11C45E06268A07C4
+
+__fstrspn                                         	30 2C11 558BEC83EC045633F6EB358B460C8B560A8946FE8956FCEB11C45E06268A07C4
++_strspn                                                 30 2C11 558BEC83EC045633F6EB358B460C8B560A8946FE8956FCEB11C45E06268A07C4
+
+-@istream@$brsh$qri                                      0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74704860075
+@istream@$brsh$qrs                                	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74704860075
+@istream@$brsh$qrui                               	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74704860075
+@istream@$brsh$qrus                               	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74704860075
+
+-@istream@$brsh$qri                                      0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74706860075
+@istream@$brsh$qrs                                	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74706860075
+@istream@$brsh$qrui                               	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74706860075
+@istream@$brsh$qrus                               	0E 727C 558BEC83EC0456578B76048B7E068D46FC5056E8....59598B1CF74706860075
+
+-@istream@$brsh$qrs                                      10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470486
+@istream@$brsh$qrui                               	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470486
+@istream@$brsh$qrus                               	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470486
+@istream@$brsh$qri                                	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470486
+
+-@istream@$brsh$qri                                      10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470686
+@istream@$brsh$qrs                                	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470686
+@istream@$brsh$qrui                               	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470686
+@istream@$brsh$qrus                               	10 E5E2 558BEC83EC0456578B76068B7E088D46FC5056..........59598B1CF7470686
+
+__fstrpbrk                                        	2C 81BB 558BEC83EC04EB338B460C8B560A8946FE8956FCEB19C45E06268A07C45EFC26
++_strpbrk                                                2C 81BB 558BEC83EC04EB338B460C8B560A8946FE8956FCEB19C45E06268A07C45EFC26
+
++_strtok                                                 00 0000 558BEC83EC081EB8....8ED88B46060B460874458B46088B5606A3....8916..
+__fstrtok                                         	00 0000 558BEC83EC081EB8....8ED88B46060B460874458B46088B5606A3....8916..
+
+-@istream@0$brsh$qmuc                                    B0 4DC0 558BEC83EC08561EB8....8ED833C050FF7608FF7606..........83C4060BC0
+@istream@0$brsh$qmzc                              	B0 4DC0 558BEC83EC08561EB8....8ED833C050FF7608FF7606..........83C4060BC0
+
+-@istream@0get$qmzc                                      B7 692A 558BEC83EC08561EB8....8ED8B8010050FF7608FF7606..........83C4060B
+@istream@0get$qmuc                                	B7 692A 558BEC83EC08561EB8....8ED8B8010050FF7608FF7606..........83C4060B
+
+-@istream@$brsh$qmzc                                     A8 28F4 558BEC83EC085633C050FF7606FF7604E8....83C4060BC07503E9B600C45E04
+@istream@$brsh$qmuc                               	A8 28F4 558BEC83EC085633C050FF7606FF7604E8....83C4060BC07503E9B600C45E04
+
+-@istream@$brsh$qmzc                                     A9 ABE1 558BEC83EC085633C050FF7608FF7606..........83C4060BC07503E9B800C4
+@istream@$brsh$qmuc                               	A9 ABE1 558BEC83EC085633C050FF7608FF7606..........83C4060BC07503E9B800C4
+
+-@istream@get$qmzc                                       AF 9769 558BEC83EC0856B8010050FF7606FF7604E8....83C4060BC07503E9BB00C45E
+@istream@get$qmuc                                 	AF 9769 558BEC83EC0856B8010050FF7606FF7604E8....83C4060BC07503E9BB00C45E
+
+-@istream@get$qmzc                                       B0 545D 558BEC83EC0856B8010050FF7608FF7606..........83C4060BC07503E9BD00
+@istream@get$qmuc                                 	B0 545D 558BEC83EC0856B8010050FF7608FF7606..........83C4060BC07503E9BD00
+
+__fstrtok                                         	13 F7F2 558BEC83EC088B46060B460874458B46088B5606A3....8916....EB368B460C
+_strtok                                           	13 F7F2 558BEC83EC088B46060B460874458B46088B5606A3....8916....EB368B460C
+
+-@streambuf@dbp$qv                                       00 0000 558BEC83EC501EB8....8ED8C45E0626FF770226FF371EB8....50168D46B050
+@streambuf@0dbp$qv                                	00 0000 558BEC83EC501EB8....8ED8C45E0626FF770226FF371EB8....50168D46B050
+
+-@strstreambuf@$bctr$qnzcit1                             0C C99B 558BEC8B46040B46067402EB0EB82E0050E8....598956068946048B46040B46
+@strstreambuf@$bctr$qnucit1                       	0C C99B 558BEC8B46040B46067402EB0EB82E0050E8....598956068946048B46040B46
+
+-@istream@$brsh$qpqm3ios$m3ios                           0C 7D4E 558BEC8B46040B4606740CC45E04268B5702268B07EB068B56068B46045250FF
+@ostream@$blsh$qpqm3ios$m3ios                     	0C 7D4E 558BEC8B46040B4606740CC45E04268B5702268B07EB068B56068B46045250FF
+
+-@strstreambuf@$bctr$qnzcit1                             04 2B63 558BEC8B46040B46067512B82E0050E8....598956068946040BC2742CFF7606
+@strstreambuf@$bctr$qnucit1                       	04 2B63 558BEC8B46040B46067512B82E0050E8....598956068946040BC2742CFF7606
+
+@streambuf@overflow$qi                            	00 0000 558BEC8B4604B8FFFF5DC3..........................................
+@streambuf@pbackfail$qi                           	00 0000 558BEC8B4604B8FFFF5DC3..........................................
+
+-@strstreambuf@$bctr$qnzcit1                             0D 1A31 558BEC8B46060B46087402EB10B8320050..........598956088946068B4606
+@strstreambuf@$bctr$qnucit1                       	0D 1A31 558BEC8B46060B46087402EB10B8320050..........598956088946068B4606
+
+-@istream@$brsh$qnqm3ios$m3ios                           0C E1EF 558BEC8B46060B4608740CC45E06268B5702268B07EB068B56088B46065250FF
+@ostream@$blsh$qnqm3ios$m3ios                     	0C E1EF 558BEC8B46060B4608740CC45E06268B5702268B07EB068B56088B46065250FF
+
+-@strstreambuf@$bctr$qnzcit1                             05 1503 558BEC8B46060B46087514B8320050..........598956088946060BC27430FF
+@strstreambuf@$bctr$qnucit1                       	05 1503 558BEC8B46060B46087514B8320050..........598956088946060BC27430FF
+
+-@streambuf@overflow$qi                                  00 0000 558BEC8B4606B8FFFF5DCB..........................................
+@streambuf@pbackfail$qi                           	00 0000 558BEC8B4606B8FFFF5DCB..........................................
+
++_tolower                                                0C 256E 558BEC8B560683FAFF7505B8FFFFEB1A8AC2B4008BD8F687....0474098AC2B4
+__ftolower                                        	0C 256E 558BEC8B560683FAFF7505B8FFFFEB1A8AC2B4008BD8F687....0474098AC2B4
+
++_toupper                                                0C 9921 558BEC8B560683FAFF7505B8FFFFEB1A8AC2B4008BD8F687....0874098AC2B4
+__ftoupper                                        	0C 9921 558BEC8B560683FAFF7505B8FFFFEB1A8AC2B4008BD8F687....0874098AC2B4
+
++_getvect                                                00 0000 558BECB4358A4604CD21938CC25DC3558BECB4258A46041EC55606CD211F5DC3
+__dos_getvect                                     	00 0000 558BECB4358A4604CD21938CC25DC3558BECB4258A46041EC55606CD211F5DC3
+
++_getvect                                                00 0000 558BECB4358A4606CD21938CC25DCB558BECB4258A46061EC55608CD211F5DCB
+__dos_getvect                                     	00 0000 558BECB4358A4606CD21938CC25DCB558BECB4258A46061EC55608CD211F5DCB
+
++_unlink                                                 00 0000 558BECB4418B5604CD21720433C0EB0450E8....5DC3....................
+_remove                                           	00 0000 558BECB4418B5604CD21720433C0EB0450E8....5DC3....................
+
++_unlink                                                 00 0000 558BECB4418B5606CD21720433C0EB0450E8....5DCB....................
+_remove                                           	00 0000 558BECB4418B5606CD21720433C0EB0450E8....5DCB....................
+
+@streambuf@overflow$qi                            	00 0000 558BECB8FFFF5DC3................................................
+@streambuf@pbackfail$qi                           	00 0000 558BECB8FFFF5DC3................................................
+
+@streambuf@overflow$qi                            	00 0000 558BECB8FFFF5DCB................................................
+@streambuf@pbackfail$qi                           	00 0000 558BECB8FFFF5DCB................................................
+
+-@istream@$brsh$qpqm3ios$m3ios                           00 0000 558BECC45E040626FF37FF560859598B56068B46045DC3..................
+@ostream@$blsh$qpqm3ios$m3ios                     	00 0000 558BECC45E040626FF37FF560859598B56068B46045DC3..................
+
+-@istream@$brsh$qnqm3ios$m3ios                           00 0000 558BECC45E060626FF37FF5E0A59598B56088B46065DCB..................
+@ostream@$blsh$qnqm3ios$m3ios                     	00 0000 558BECC45E060626FF37FF5E0A59598B56088B46065DCB..................
+
+-@istream_withassign@$basg$qm7istream                    06 988B 558BECC45E08268B1F26FF770426FF7702C45E040626FF37E8....83C4088B56
+@ostream_withassign@$basg$qm7ostream              	06 988B 558BECC45E08268B1F26FF770426FF7702C45E040626FF37E8....83C4088B56
+
+-@istream_withassign@$basg$qm7istream                    08 E8B9 558BECC45E0826C41F26FF770226FF37C45E0426FF770226FF37E8....83C408
+@ostream_withassign@$basg$qm7ostream              	08 E8B9 558BECC45E0826C41F26FF770226FF37C45E0426FF770226FF37E8....83C408
+
+-@istream_withassign@$basg$qm7istream                    08 BAB9 558BECC45E0A268B1F26FF770426FF7702C45E060626FF37..........83C408
+@ostream_withassign@$basg$qm7ostream              	08 BAB9 558BECC45E0A268B1F26FF770426FF7702C45E060626FF37..........83C408
+
+-@istream_withassign@$basg$qm7istream                    0A 6A65 558BECC45E0A26C41F26FF770226FF37C45E0626FF770226FF37..........83
+@ostream_withassign@$basg$qm7ostream              	0A 6A65 558BECC45E0A26C41F26FF770226FF37C45E0626FF770226FF37..........83
+
+-@_vector_new_$qpvuiuiuie                                00 0000 558BECE8....33C05DC3............................................
+@_vector_vnew_$qpvuiuiuie                         	00 0000 558BECE8....33C05DC3............................................
+
++@$bdele$qpv                                             00 0000 558BECFF7604E8....595DC3........................................
+@$bdele$qpvui                                     	00 0000 558BECFF7604E8....595DC3........................................
+
++_pow10                                                  00 0000 558BECFF7604E8....5DC3..........................................
+_pow10l                                           	00 0000 558BECFF7604E8....5DC3..........................................
+
++_pow10                                                  00 0000 558BECFF7606E8....5DCB..........................................
+_pow10l                                           	00 0000 558BECFF7606E8....5DCB..........................................
+
+@$bdele$qnvui                                     	00 0000 558BECFF7606FF7604E8....59595DC3................................
++@$bdele$qnv                                             00 0000 558BECFF7606FF7604E8....59595DC3................................
+
+__graphfreemem                                    	00 0000 558BECFF7606..........595DCB....................................
+-@$bdele$qpv                                             00 0000 558BECFF7606..........595DCB....................................
+@$bdele$qpvui                                     	00 0000 558BECFF7606..........595DCB....................................
+
+__graphfreemem                                    	00 0000 558BECFF7608FF7606..........59595DCB............................
+-@$bdele$qnv                                             00 0000 558BECFF7608FF7606..........59595DCB............................
+@$bdele$qnvui                                     	00 0000 558BECFF7608FF7606..........59595DCB............................
+
+-@istream_withassign@$basg$qn9streambuf                  00 0000 558BECFF760AFF7608C45E040626FF37E8....83C4088B56068B46045DC3....
+@iostream_withassign@$basg$qn9streambuf           	00 0000 558BECFF760AFF7608C45E040626FF37E8....83C4088B56068B46045DC3....
+@ostream_withassign@$basg$qn9streambuf            	00 0000 558BECFF760AFF7608C45E040626FF37E8....83C4088B56068B46045DC3....
+
+-@istream_withassign@$basg$qn9streambuf                  01 EF04 558BECFF760AFF7608C45E0426FF770226FF37E8....83C4088B56068B46045D
+@iostream_withassign@$basg$qn9streambuf           	01 EF04 558BECFF760AFF7608C45E0426FF770226FF37E8....83C4088B56068B46045D
+@ostream_withassign@$basg$qn9streambuf            	01 EF04 558BECFF760AFF7608C45E0426FF770226FF37E8....83C4088B56068B46045D
+
+-@istream_withassign@$basg$qn9streambuf                  00 0000 558BECFF760CFF760AC45E060626FF37..........83C4088B56088B46065DCB
+@iostream_withassign@$basg$qn9streambuf           	00 0000 558BECFF760CFF760AC45E060626FF37..........83C4088B56088B46065DCB
+@ostream_withassign@$basg$qn9streambuf            	00 0000 558BECFF760CFF760AC45E060626FF37..........83C4088B56088B46065DCB
+
+-@istream_withassign@$basg$qn9streambuf                  03 450B 558BECFF760CFF760AC45E0626FF770226FF37..........83C4088B56088B46
+@iostream_withassign@$basg$qn9streambuf           	03 450B 558BECFF760CFF760AC45E0626FF770226FF37..........83C4088B56088B46
+@ostream_withassign@$basg$qn9streambuf            	03 450B 558BECFF760CFF760AC45E0626FF770226FF37..........83C4088B56088B46
+
+-@_vector_new_$qpvuiuiuie                                00 0000 558BEC..........33C05DCB........................................
+@_vector_vnew_$qpvuiuiuie                         	00 0000 558BEC..........33C05DCB........................................
+
+@iostream_withassign@$vsn                         	00 0000 8BDC36834702F8E9....8BDC36834702F2E9............................
+@iostream@$vsn                                    	00 0000 8BDC36834702F8E9....8BDC36834702F2E9............................
+
+@istream_withassign@$vsn                          	00 0000 8BDC36834702F8E9................................................
+@istream@$vsn                                     	00 0000 8BDC36834702F8E9................................................
+
+@iostream_withassign@$vsn                         	00 0000 8BDC36834702FAE9....8BDC36834702F6E9............................
+@iostream@$vsn                                    	00 0000 8BDC36834702FAE9....8BDC36834702F6E9............................
+
+@ostream_withassign@$vsn                          	00 0000 8BDC36834702FAE9................................................
+@ostream@$vsn                                     	00 0000 8BDC36834702FAE9................................................
+@istream_withassign@$vsn                          	00 0000 8BDC36834702FAE9................................................
+@istream@$vsn                                     	00 0000 8BDC36834702FAE9................................................
+
+@ostream_withassign@$vsn                          	00 0000 8BDC36834702FCE9................................................
+@ostream@$vsn                                     	00 0000 8BDC36834702FCE9................................................
+
+@ostrstream@$vsf                                  	00 0000 8BDC36834704C4EA........8BDC36834704BCEA........................
+@ifstream@$vsf                                    	00 0000 8BDC36834704C4EA........8BDC36834704BCEA........................
+
+@strstreambase@$vsf                               	00 0000 8BDC36834704C4EA................................................
+@fstreambase@$vsf                                 	00 0000 8BDC36834704C4EA................................................
+
+@iostream_withassign@$vsf                         	00 0000 8BDC36834704F6EA........8BDC36834704EEEA........................
+@iostream@$vsf                                    	00 0000 8BDC36834704F6EA........8BDC36834704EEEA........................
+
+@istream_withassign@$vsf                          	00 0000 8BDC36834704F6EA................................................
+@istream@$vsf                                     	00 0000 8BDC36834704F6EA................................................
+
+@iostream_withassign@$vsf                         	00 0000 8BDC36834704F8EA........8BDC36834704F2EA........................
+@iostream@$vsf                                    	00 0000 8BDC36834704F8EA........8BDC36834704F2EA........................
+
+@ostream_withassign@$vsf                          	00 0000 8BDC36834704F8EA................................................
+@ostream@$vsf                                     	00 0000 8BDC36834704F8EA................................................
+@istream_withassign@$vsf                          	00 0000 8BDC36834704F8EA................................................
+@istream@$vsf                                     	00 0000 8BDC36834704F8EA................................................
+
+@iostream_withassign@$vsf                         	00 0000 8BDC36834704FAEA........8BDC36834704F6EA........................
+@iostream@$vsf                                    	00 0000 8BDC36834704FAEA........8BDC36834704F6EA........................
+
+@ostream_withassign@$vsf                          	00 0000 8BDC36834704FAEA................................................
+@ostream@$vsf                                     	00 0000 8BDC36834704FAEA................................................
+@istream_withassign@$vsf                          	00 0000 8BDC36834704FAEA................................................
+@istream@$vsf                                     	00 0000 8BDC36834704FAEA................................................
+
+@ostream_withassign@$vsf                          	00 0000 8BDC36834704FCEA................................................
+@ostream@$vsf                                     	00 0000 8BDC36834704FCEA................................................

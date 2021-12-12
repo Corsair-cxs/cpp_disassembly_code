@@ -1,0 +1,23 @@
+Courtesy of Nick Pisanov - Delphi v1.0 support for IDA
+------------------------------------------------------
+
+What's this?
+------------
+
+IDA FLIRT signatures for Delphi version 1.0
+
+Installation
+------------
+
+Just copy *.IDC and *.SIG the files into corresponding directories (IDC & SIG)
+
+Usage
+-----
+
+Try to run IDA on provided sample programs
+
+
+What's next?
+------------
+
+Nick currently works on signatures for Delphi 2.0
